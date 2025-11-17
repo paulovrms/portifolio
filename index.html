@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0a0a0a">
+
+    <title>Seu Nome — Portfólio</title>
+    <meta name="description" content="Breve descrição do seu portfólio ou site pessoal.">
+    <meta name="author" content="Seu Nome">
+    <meta name="robots" content="index, follow">
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Seu Nome — Portfólio">
+    <meta property="og:description" content="Breve descrição do seu portfólio ou site pessoal.">
+    <meta property="og:url" content="https://seudominio.com/">
+    <meta property="og:image" content="https://seudominio.com/preview.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Seu Nome — Portfólio">
+    <meta name="twitter:description" content="Breve descrição do seu portfólio ou site pessoal.">
+    <meta name="twitter:image" content="https://seudominio.com/preview.png">
+
+    <!-- Canonical / Favicons / Manifest -->
+    <link rel="canonical" href="https://seudominio.com/">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Stylesheets / Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Basic SEO / Performance hints -->
+    <meta name="referrer" content="no-referrer-when-downgrade">
+</head>
+<body>
+    <header>
+        <nav aria-label="Navegação principal">
+            <a href="/" id="logo">Seu Nome</a>
+            <button aria-expanded="false" aria-controls="menu">Menu</button>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Olá — eu sou o Engenheiro Ramos</h1>
+        <p>Este é um template básico de HTML com todos os headers essenciais.</p>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Seu Nome. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Pequeno script local: atualiza o ano no rodapé
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <script src="main.js" defer></script>
+</body>
+</html>
