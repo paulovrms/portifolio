@@ -517,16 +517,12 @@ textarea {
     .header__logo-container:hover {
       color: #000000; }
   .header__logo-img-cont {
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50px;
+    width: 20rem;
+    height: 6rem;
     overflow: hidden;
-    margin-right: 1.5rem;
-    background: #000000; }
+    margin-right: 1.5rem; }
     @media only screen and (max-width: 56.25em) {
       .header__logo-img-cont {
-        width: 4.5rem;
-        height: 4.5rem;
         margin-right: 1.2rem; } }
   .header__logo-img {
     width: 100%;
