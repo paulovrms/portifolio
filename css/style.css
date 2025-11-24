@@ -518,7 +518,6 @@ textarea {
       color: #000000; }
   .header__logo-img-cont {
     width: 20rem;
-    height: 6rem;
     overflow: hidden;
     margin-right: 1.5rem; }
     @media only screen and (max-width: 56.25em) {
